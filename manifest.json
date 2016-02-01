@@ -1,0 +1,14 @@
+{
+  "name": "Goal Buddy",
+  "description": "NHL Score Updater",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "http://mysubdomain.example.com/"
+    ],
+    "launch": {
+      "web_url": "http://mysubdomain.example.com/
+    }
+  }
+}
