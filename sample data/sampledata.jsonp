@@ -1,0 +1,773 @@
+{
+  "rosters": {
+    "home": {
+      "skaters": [
+        {
+          "g": 0,
+          "sog": 2,
+          "num": 6,
+          "pim": 0,
+          "toi": "6:46",
+          "a": 2,
+          "pm": 0
+        },
+        {
+          "g": 0,
+          "sog": 2,
+          "num": 9,
+          "pim": 0,
+          "toi": "6:15",
+          "a": 2,
+          "pm": -1
+        },
+        {
+          "g": 0,
+          "sog": 1,
+          "num": 14,
+          "pim": 0,
+          "toi": "7:04",
+          "a": 1,
+          "pm": -2
+        },
+        {
+          "g": 2,
+          "sog": 2,
+          "num": 18,
+          "pim": 0,
+          "toi": "5:57",
+          "a": 1,
+          "pm": 1
+        },
+        {
+          "g": 1,
+          "sog": 1,
+          "num": 33,
+          "pim": 0,
+          "toi": "6:37",
+          "a": 1,
+          "pm": -1
+        },
+        {
+          "g": 1,
+          "sog": 2,
+          "num": 59,
+          "pim": 0,
+          "toi": "7:29",
+          "a": 0,
+          "pm": -1
+        },
+        {
+          "g": 1,
+          "sog": 3,
+          "num": 88,
+          "pim": 0,
+          "toi": "7:32",
+          "a": 0,
+          "pm": -2
+        },
+        {
+          "g": 0,
+          "sog": 2,
+          "num": 91,
+          "pim": 0,
+          "toi": "6:31",
+          "a": 2,
+          "pm": -1
+        },
+        {
+          "g": 1,
+          "sog": 2,
+          "num": 91,
+          "pim": 0,
+          "toi": "7:40",
+          "a": 2,
+          "pm": 0
+        }
+      ],
+      "goalies": [
+        {
+          "num": 35,
+          "toi": "10:00",
+          "sa": 8,
+          "sv": 5,
+          "svp": ".625",
+          "ga": 3
+        },
+        {
+          "num": 40,
+          "toi": "8:09",
+          "sa": 13,
+          "sv": 8,
+          "svp": ".615",
+          "ga": 5
+        }
+      ]
+    },
+    "away": {
+      "skaters": [
+        {
+          "g": 2,
+          "sog": 3,
+          "num": 4,
+          "pim": 0,
+          "toi": "6:24",
+          "a": 1,
+          "pm": 1
+        },
+        {
+          "g": 0,
+          "sog": 1,
+          "num": 5,
+          "pim": 0,
+          "toi": "7:02",
+          "a": 1,
+          "pm": -1
+        },
+        {
+          "g": 1,
+          "sog": 3,
+          "num": 8,
+          "pim": 0,
+          "toi": "7:01",
+          "a": 1,
+          "pm": 2
+        },
+        {
+          "g": 1,
+          "sog": 1,
+          "num": 8,
+          "pim": 0,
+          "toi": "7:06",
+          "a": 1,
+          "pm": 1
+        },
+        {
+          "g": 0,
+          "sog": 4,
+          "num": 10,
+          "pim": 0,
+          "toi": "7:22",
+          "a": 2,
+          "pm": -1
+        },
+        {
+          "g": 1,
+          "sog": 2,
+          "num": 13,
+          "pim": 0,
+          "toi": "7:42",
+          "a": 2,
+          "pm": 1
+        },
+        {
+          "g": 2,
+          "sog": 4,
+          "num": 22,
+          "pim": 0,
+          "toi": "7:00",
+          "a": 1,
+          "pm": -1
+        },
+        {
+          "g": 2,
+          "sog": 3,
+          "num": 28,
+          "pim": 0,
+          "toi": "5:18",
+          "a": 0,
+          "pm": 2
+        },
+        {
+          "g": 0,
+          "sog": 1,
+          "num": 88,
+          "pim": 0,
+          "toi": "5:52",
+          "a": 3,
+          "pm": 2
+        }
+      ],
+      "goalies": [
+        {
+          "num": 32,
+          "toi": "10:00",
+          "sa": 7,
+          "sv": 4,
+          "svp": ".571",
+          "ga": 3
+        },
+        {
+          "num": 36,
+          "toi": "10:00",
+          "sa": 10,
+          "sv": 7,
+          "svp": ".700",
+          "ga": 3
+        }
+      ]
+    }
+  },
+  "shotSummary": [
+    {
+      "per": 1,
+      "shots": [
+        {
+          "aShots": 8,
+          "ht": "CEN",
+          "at": "PAC",
+          "aShotTot": 22,
+          "hShotTot": 17,
+          "hShots": 7
+        }
+      ]
+    },
+    {
+      "per": 2,
+      "shots": [
+        {
+          "aShots": 14,
+          "ht": "CEN",
+          "at": "PAC",
+          "aShotTot": 22,
+          "hShotTot": 17,
+          "hShots": 10
+        }
+      ]
+    }
+  ],
+  "allEvents": [
+    {
+      "id": 6,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "James Neal won against Daniel Sedin",
+      "sip": 0,
+      "p2": 22,
+      "p1": 18,
+      "p": 1,
+      "type": 502
+    },
+    {
+      "dc": 803,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "James Neal (1) Wrist Shot, assists: Matt Duchene (1), Shea Weber (1)",
+      "p2": 32,
+      "p1": 18,
+      "sc": 701,
+      "type": 505,
+      "p3t": 1,
+      "p1t": 1,
+      "id": 7,
+      "p2t": 1,
+      "gdc": 901,
+      "sip": 26,
+      "pa": 9,
+      "sa": 6,
+      "p": 1
+    },
+    {
+      "id": 8,
+      "t2": "CEN",
+      "t1": "PAC",
+      "desc": "Joe Pavelski won against Jamie Benn",
+      "sip": 26,
+      "p2": 14,
+      "p1": 8,
+      "p": 1,
+      "type": 502
+    },
+    {
+      "dc": 805,
+      "t2": "CEN",
+      "t1": "PAC",
+      "desc": "John Scott (1) Tip-In, assists: Brent Burns (1)",
+      "p2": 35,
+      "p1": 28,
+      "sc": 701,
+      "type": 505,
+      "p1t": 1,
+      "id": 9,
+      "p2t": 1,
+      "gdc": 901,
+      "sip": 47,
+      "pa": 88,
+      "p": 1
+    },
+    {
+      "id": 10,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Tyler Seguin won against Taylor Hall",
+      "sip": 47,
+      "p2": 4,
+      "p1": 91,
+      "p": 1,
+      "type": 502
+    },
+    {
+      "id": 151,
+      "t1": "PAC",
+      "desc": "Johnny Gaudreau",
+      "sip": 86,
+      "p1": 13,
+      "p": 1,
+      "type": 525
+    },
+    {
+      "dc": 803,
+      "id": 13,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Vladimir Tarasenko Wrist Shot saved by Jonathan Quick",
+      "sip": 101,
+      "p2": 32,
+      "p1": 91,
+      "p": 1,
+      "type": 506
+    },
+    {
+      "dc": 806,
+      "id": 14,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Shea Weber Backhand saved by Jonathan Quick",
+      "sip": 123,
+      "p2": 32,
+      "p1": 6,
+      "p": 1,
+      "type": 506
+    },
+    {
+      "id": 152,
+      "t1": "CEN",
+      "desc": "Roman Josi",
+      "sip": 209,
+      "p1": 59,
+      "p": 1,
+      "type": 504
+    },
+    {
+      "dc": 803,
+      "id": 17,
+      "t2": "CEN",
+      "t1": "PAC",
+      "desc": "Mark Giordano Wrist Shot saved by Pekka Rinne",
+      "sip": 233,
+      "p2": 35,
+      "p1": 5,
+      "p": 1,
+      "type": 506
+    },
+    {
+      "dc": 803,
+      "id": 20,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Vladimir Tarasenko Wrist Shot saved by Jonathan Quick",
+      "sip": 266,
+      "p2": 32,
+      "p1": 91,
+      "p": 1,
+      "type": 506
+    },
+    {
+      "id": 22,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Matt Duchene won against Daniel Sedin",
+      "sip": 268,
+      "p2": 22,
+      "p1": 9,
+      "p": 1,
+      "type": 502
+    },
+    {
+      "dt": "MIN",
+      "dc": 507,
+      "id": 154,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Pekka Rinne Delaying Game - Illegal play by goalie served by Matt Duchene",
+      "dur": 1,
+      "sip": 279,
+      "p1": 35,
+      "sb": 9,
+      "p": 1,
+      "type": 509
+    },
+    {
+      "id": 23,
+      "t2": "PAC",
+      "t1": "CEN",
+      "desc": "Jamie Benn won against Joe Pavelski",
+      "sip": 279,
+      "p2": 8,
+      "p1": 14,
+      "p": 1,
+      "type": 502
+    },
+    {
+      "dc": 803,
+      "id": 25,
+      "t2": "CEN",
+      "t1": "PAC",
+      "desc": "Daniel Sedin Wrist Shot saved by Pekka Rinne",
+      "sip": 325,
+      "p2": 35,
+      "p1": 22,
+      "p": 1,
+      "type": 506
+    },
+    {
+      "dc": 803,
+      "t2": "CEN",
+      "t1": "PAC",
+      "desc": "Joe Pavelski (1) Wrist Shot, assists: Daniel Sedin (1), Corey Perry (1)",
+      "p2": 35,
+      "p1": 8,
+      "sc": 702,
+      "type": 505,
+      "p3t": 1,
+      "p1t": 1,
+      "id": 26,
+      "p2t": 1,
+      "gdc": 901,
+      "sip": 326,
+      "pa": 22,
+      "sa": 10,
+      "p": 1
+    }
+  ],
+  "teamStats": {
+    "home": {
+      "hBlock": 2,
+      "hTake": 1,
+      "hPP": "0\/0",
+      "hPIM": 1,
+      "hGive": 1,
+      "hFOW": 16,
+      "hHits": 0
+    },
+    "away": {
+      "aPIM": 0,
+      "aBlock": 3,
+      "aGive": 1,
+      "aHits": 1,
+      "aPP": "1\/1",
+      "aTake": 8,
+      "aFOW": 5
+    }
+  },
+  "gid": 2015040612,
+  "penaltySummary": [
+    {
+      "per": 1,
+      "penalties": [
+        {
+          "dt": "MIN",
+          "dc": 507,
+          "id": 154,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "Pekka Rinne Delaying Game - Illegal play by goalie served by Matt Duchene",
+          "dur": 1,
+          "sip": 279,
+          "p1": 35,
+          "sb": 9,
+          "p": 1,
+          "type": 509
+        }
+      ]
+    },
+    {
+      "per": 2
+    }
+  ],
+  "goalSummary": [
+    {
+      "goals": [
+        {
+          "dc": 803,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "James Neal (1) Wrist Shot, assists: Matt Duchene (1), Shea Weber (1)",
+          "p2": 32,
+          "p1": 18,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 7,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 26,
+          "pa": 9,
+          "sa": 6,
+          "p": 1
+        },
+        {
+          "dc": 805,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "John Scott (1) Tip-In, assists: Brent Burns (1)",
+          "p2": 35,
+          "p1": 28,
+          "sc": 701,
+          "type": 505,
+          "p1t": 1,
+          "id": 9,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 47,
+          "pa": 88,
+          "p": 1
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Joe Pavelski (1) Wrist Shot, assists: Daniel Sedin (1), Corey Perry (1)",
+          "p2": 35,
+          "p1": 8,
+          "sc": 702,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 26,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 326,
+          "pa": 22,
+          "sa": 10,
+          "p": 1
+        },
+        {
+          "dc": 803,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "James Neal (2) Wrist Shot, assists: Matt Duchene (2), Shea Weber (2)",
+          "p2": 32,
+          "p1": 18,
+          "sc": 701,
+          "type": 505,
+          "p3t": 2,
+          "p1t": 2,
+          "id": 31,
+          "p2t": 2,
+          "gdc": 901,
+          "sip": 481,
+          "pa": 9,
+          "sa": 6,
+          "p": 1
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Johnny Gaudreau (1) Wrist Shot, assists: Mark Giordano (1), Taylor Hall (1)",
+          "p2": 35,
+          "p1": 13,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 33,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 497,
+          "pa": 5,
+          "sa": 4,
+          "p": 1
+        },
+        {
+          "dc": 803,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "Patrick Kane (1) Wrist Shot, assists: Jamie Benn (1), Pekka Rinne (1)",
+          "p2": 32,
+          "p1": 88,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 40,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 567,
+          "pa": 14,
+          "sa": 35,
+          "p": 1
+        }
+      ],
+      "per": 1
+    },
+    {
+      "goals": [
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Daniel Sedin (1) Wrist Shot, assists: John Gibson (1)",
+          "p2": 40,
+          "p1": 22,
+          "sc": 701,
+          "type": 505,
+          "p1t": 1,
+          "id": 205,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 109,
+          "pa": 36,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "John Scott (2) Wrist Shot, assists: Brent Burns (2)",
+          "p2": 40,
+          "p1": 28,
+          "sc": 701,
+          "type": 505,
+          "p1t": 2,
+          "id": 210,
+          "p2t": 2,
+          "gdc": 901,
+          "sip": 207,
+          "pa": 88,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Taylor Hall (1) Wrist Shot, assists: Johnny Gaudreau (1)",
+          "p2": 40,
+          "p1": 4,
+          "sc": 701,
+          "type": 505,
+          "p1t": 1,
+          "id": 213,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 244,
+          "pa": 13,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Daniel Sedin (2) Wrist Shot, assists: Corey Perry (2), Drew Doughty (1)",
+          "p2": 40,
+          "p1": 22,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 2,
+          "id": 216,
+          "p2t": 2,
+          "gdc": 901,
+          "sip": 268,
+          "pa": 10,
+          "sa": 8,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "Dustin Byfuglien (1) Wrist Shot, assists: Tyler Seguin (1), Vladimir Tarasenko (1)",
+          "p2": 36,
+          "p1": 33,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 217,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 276,
+          "pa": 91,
+          "sa": 91,
+          "p": 2
+        },
+        {
+          "dc": 802,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "Tyler Seguin (1) Snap Shot, assists: Dustin Byfuglien (1), Vladimir Tarasenko (2)",
+          "p2": 36,
+          "p1": 91,
+          "sc": 701,
+          "type": 505,
+          "p3t": 2,
+          "p1t": 1,
+          "id": 218,
+          "p2t": 1,
+          "gdc": 901,
+          "sip": 289,
+          "pa": 33,
+          "sa": 91,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Taylor Hall (2) Wrist Shot, assists: Johnny Gaudreau (2), Brent Burns (3)",
+          "p2": 40,
+          "p1": 4,
+          "sc": 701,
+          "type": 505,
+          "p3t": 3,
+          "p1t": 2,
+          "id": 227,
+          "p2t": 2,
+          "gdc": 901,
+          "sip": 464,
+          "pa": 13,
+          "sa": 88,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "CEN",
+          "t1": "PAC",
+          "desc": "Drew Doughty (1) Wrist Shot, assists: Joe Pavelski (1)",
+          "p1": 8,
+          "sc": 701,
+          "type": 505,
+          "id": 232,
+          "p1t": 1,
+          "p2t": 1,
+          "gdc": 903,
+          "sip": 525,
+          "pa": 8,
+          "p": 2
+        },
+        {
+          "dc": 803,
+          "t2": "PAC",
+          "t1": "CEN",
+          "desc": "Roman Josi (1) Wrist Shot, assists: Tyler Seguin (2), James Neal (1)",
+          "p2": 36,
+          "p1": 59,
+          "sc": 701,
+          "type": 505,
+          "p3t": 1,
+          "p1t": 1,
+          "id": 234,
+          "p2t": 2,
+          "gdc": 901,
+          "sip": 533,
+          "pa": 91,
+          "sa": 18,
+          "p": 2
+        }
+      ],
+      "per": 2
+    }
+  ]
+}
