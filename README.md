@@ -1,0 +1,1 @@
+Chrome Extension designed to update when a goal is scored in a followed game, flashing an icon in the chrome toolbar.
