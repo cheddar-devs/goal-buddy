@@ -6,7 +6,7 @@
 
 body, section {			/* Change width and height to own preferences */
 	width: 400px;
-	height: 400px;
+	height: 100%;
 	overflow-x: hidden;
 }
 
@@ -17,6 +17,22 @@ body, section {			/* Change width and height to own preferences */
 /* Basic style tweaks */
 section { padding: 5px;}
 .navbar { margin-bottom: 2px; }
+
+td{
+	padding: 8px;
+}
+
+.table td, .table th {
+   text-align: center;   
+}
+
+.gameTimes{
+	font-size: 12px;
+}
+.no-border{
+	border-left: none !important;
+	border-right: none !important;
+}
 
 /* Scroll Bar */
 ::-webkit-scrollbar { width: 6px; }
