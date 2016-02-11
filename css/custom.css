@@ -26,6 +26,10 @@ td{
    text-align: center;   
 }
 
+.table{
+	color: white;
+}
+
 .gameTimes{
 	font-size: 12px;
 }
@@ -34,7 +38,145 @@ td{
 	border-right: none !important;
 }
 
+
 /* Scroll Bar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: red; }
+
+
+/* Team BGS */
+.njd-bg{
+	background-color: #E13A3E;
+	text-shadow: 2px 2px 2px black;
+}
+.nyi-bg{
+	background-color: #00539B;
+	text-shadow: 2px 2px 2px black;
+}
+.nyr-bg{
+	background-color: #0161AB;
+	text-shadow: 2px 2px 2px black;
+}
+.phi-bg{
+	background-color: #F4793E;
+	text-shadow: 2px 2px 2px black;
+}
+.pit-bg{
+	background-color: #D0BD7F;
+	text-shadow: 2px 2px 2px black;
+}
+.bos-bg{
+	background-color: #FFC422;
+	text-shadow: 2px 2px 2px black;
+}
+.buf-bg{
+	background-color: #002D62;
+	text-shadow: 2px 2px 2px black;
+}
+.mon-bg{
+	background-color: #BE2F37;
+	text-shadow: 2px 2px 2px black;
+}
+.ott-bg{
+	/*background-color: #E4173E;*/
+	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#E4173E,
+  		#E4173E 10px,
+  		#D4A00F 10px,
+  		#D4A00F 20px
+	);
+}
+.tor-bg{
+	background-color: #003876;
+	text-shadow: 2px 2px 2px black;
+}
+.car-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.fla-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.tbl-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.wsh-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.chi-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.det-bg{
+	/*background-color: #B01213;*/
+	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#EC2024,
+  		#EC2024 10px,
+  		#fff 10px,
+  		#fff 20px
+	);
+}
+.nsh-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.stl-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.cgy-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.col-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.edm-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.van-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.ana-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.dal-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.lak-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.sjs-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.cbj-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.min-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.win-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
+.ari-bg{
+	background-color: #B01213;
+	text-shadow: 2px 2px 2px black;
+}
