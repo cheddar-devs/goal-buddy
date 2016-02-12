@@ -18,10 +18,8 @@ $(document).ready(function(){
 			//item.teams.home.team.name - gives the value of the name of the home team.
 			var link = item.link;
 
-			var expandedData;
-			$.getJSON("https://statsapi.web.nhl.com/" + link, function(data){expandedData = data;}).done(function(data){
-				var curPeriod = expandedData.liveData.linescore.currentPeriod;
-			});
+			
+			
 			
 			var gameState = item.status.abstractGameState;
 			var gamePeriod = item.status.codedGameState;
@@ -46,17 +44,30 @@ $(document).ready(function(){
 
 			$("#scoreTable").append("<tr>");
 			$("#scoreTable").append("<td class='"+ homeBG +"'>" + homeName + "</td>");
-
+			//alert(link);
 			if(gameState === "Live"){
+
 				$("#scoreTable").append("<td>" + homeScore + "</td>");
-				if(curPeriod === "1")
-					$("#scoreTable").append("<td>" + curPeriod + "st</td>");
-				if(curPeriod === "2")
-					$("#scoreTable").append("<td>" + curPeriod + "nd</td>");
-				if(curPeriod === "3")
-					$("#scoreTable").append("<td>" + curPeriod + "rd</td>");
-				if(curPeriod === "OT")
-					$("#scoreTable").append("<td>" + "OT" + "</td>");
+
+				var curPeriod
+				var expandedData;
+				$.ajax({
+				     async: false,
+				     type: 'GET',
+				     url: 'https://statsapi.web.nhl.com' + link,
+				     success: function(data) {
+				           curPeriod = data.liveData.linescore.currentPeriodOrdinal;
+				          //alert(curPeriod);
+				     }
+				});
+				
+				//alert("https://statsapi.web.nhl.com/" + link);
+			
+				//alert(curPeriod);
+				
+				
+				$("#scoreTable").append("<td>" + curPeriod + "</td>");
+				
 				$("#scoreTable").append("<td>" + awayScore + "</td>");
 			}
 			else if(gameState === "Final"){

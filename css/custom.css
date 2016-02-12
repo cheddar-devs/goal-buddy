@@ -6,7 +6,8 @@
 
 body, section {			/* Change width and height to own preferences */
 	width: 400px;
-	height: 100%;
+	height: 100% !important;
+	height: 400px !important;
 	overflow-x: hidden;
 }
 
@@ -38,6 +39,11 @@ td{
 	border-right: none !important;
 }
 
+.settings{
+	font-size: 24px;
+	padding-right: 10px;
+}
+
 
 /* Scroll Bar */
 ::-webkit-scrollbar { width: 6px; }
@@ -47,36 +53,84 @@ td{
 
 /* Team BGS */
 .njd-bg{
-	background-color: #E13A3E;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#E03A3E,
+  		#E03A3E 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
 }
 .nyi-bg{
-	background-color: #00539B;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#00529B,
+  		#00529B 10px,
+  		#F57D31 10px,
+  		#F57D31 20px
+	);
 }
 .nyr-bg{
-	background-color: #0161AB;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#0161AB,
+  		#0161AB 10px,
+  		#E6393F 10px,
+  		#E6393F 20px
+	);
 }
 .phi-bg{
-	background-color: #F4793E;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#F47940,
+  		#F47940 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
 }
 .pit-bg{
-	background-color: #D0BD7F;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#000000,
+  		#000000 10px,
+  		#D1BD80 10px,
+  		#D1BD80 20px
+	);
 }
 .bos-bg{
-	background-color: #FFC422;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#000000,
+  		#000000 10px,
+  		#FFC422 10px,
+  		#FFC422 20px
+	);
 }
 .buf-bg{
-	background-color: #002D62;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#002E62,
+  		#002E62 10px,
+  		#FDBB2F 10px,
+  		#FDBB2F 20px
+	);
 }
 .mon-bg{
-	background-color: #BE2F37;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#BF2F38,
+  		#BF2F38 10px,
+  		#213770 10px,
+  		#213770 20px
+	);
 }
 .ott-bg{
 	/*background-color: #E4173E;*/
@@ -90,24 +144,54 @@ td{
 	);
 }
 .tor-bg{
-	background-color: #003876;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#003777,
+  		#003777 10px,
+  		#013E7D 10px,
+  		#013E7D 20px
+	);
 }
 .car-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#E03A3E,
+  		#E03A3E 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
 }
 .fla-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#C8213F,
+  		#C8213F 10px,
+  		#002E5F 10px,
+  		#002E5F 20px
+	);
 }
 .tbl-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#013E7D,
+  		#013E7D 10px,
+  		#C0C0C0 10px,
+  		#C0C0C0 20px
+	);
 }
 .wsh-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#CF132B,
+  		#CF132B 10px,
+  		#00214E 10px,
+  		#00214E 20px
+	);
 }
 .chi-bg{
 	background-color: #B01213;

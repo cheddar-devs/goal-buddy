@@ -13,37 +13,30 @@
 		<!-- Cascading Style Sheets -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/custom.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-  <ul class="nav nav-tabs" role="tablist">
-  	<li role="presentation" class="active"><a href="#gameData" aria-controls="home" role="tab" data-toggle="tab">Games</a></li>
-  	<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-  </ul>
+  	</head>
+  	<body>
 
-  <div class="tab-content">
-	  <div ole="tabpanel" class="tab-pane active" id="gameData">
-		    <div class="result">
-		    	<!-- Game Data Goes Here -->
-		    	<!-- <span id="gameDate"></span> -->
-		    	<table class="table table-bordered table-striped">
-		    		<thead>
-		    			<tr>
-		    				<th>Home</th>
-		    				<th class="no-border"></th>
-		    				<th class="no-border"></th>
-		    				<th class="no-border"></th>
-		    				<th>Away</th>
-		    			</tr>
-		    		</thead>
-		    		<tbody id="scoreTable"></tbody>
-		    	</table>
-		    </div>
+	<span class="glyphicon glyphicon-cog pull-right settings" aria-hidden="true"></span>
+	
+	<center><h3>Goal Buddy</h3></center>
+
+  	<div id="gameData">
+	    <div class="result">
+	    	<!-- Game Data Goes Here -->
+	    	<!-- <span id="gameDate"></span> -->
+	    	<table class="table table-bordered table-striped">
+	    		<thead>
+	    			<tr>
+	    				<th>Home</th>
+	    				<th class="no-border"></th>
+	    				<th class="no-border"></th>
+	    				<th class="no-border"></th>
+	    				<th>Away</th>
+	    			</tr>
+	    		</thead>
+	    		<tbody id="scoreTable"></tbody>
+	    	</table>
 	    </div>
-	    <div role="tabpanel" class="tab-pane" id="profile">...</div>
-    	<div role="tabpanel" class="tab-pane" id="messages">...</div>
-    	<div role="tabpanel" class="tab-pane" id="settings">...</div>
     </div>
   </body>
 </html>
