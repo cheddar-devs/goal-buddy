@@ -1,0 +1,31 @@
+<div class="result">
+	<!-- Game Data Goes Here -->
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>Home</th>
+				<th class="no-border"></th>
+				<th class="no-border"></th>
+				<th class="no-border"></th>
+				<th>Away</th>
+			</tr>
+		</thead>
+		
+		<tbody id="scoreTable">
+			<tr ng-repeat="game in gameData.gameList.dates[0].games">
+				<td>{{game.teams.home.team.name}}</td>
+				<td ng-if="showScore(game.status.abstractGameState)">{{game.teams.home.score}}</td>
+				<td ng-if="!showScore(game.status.abstractGameState)"></td>
+
+				<td ng-if="showStatus(game.status.abstractGameState)">{{game.status.abstractGameState}}</td>
+				<td ng-if="showTime(game.status.abstractGameState)">{{game.gameDate | amUtc | amLocal | amDateFormat: 'h:mma'}}</td>
+				<td id="gamePeriod" ng-if="getTimeRemaining(game.link)}">{{}}</td>
+				
+				<td ng-if="!showScore(game.status.abstractGameState)"></td>
+				<td ng-if="showScore(game.status.abstractGameState)">{{game.teams.away.score}}</td>
+				<td>{{game.teams.away.team.name}}</td>
+
+			</tr>
+		</tbody>
+	</table>
+</div>

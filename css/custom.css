@@ -51,6 +51,9 @@ td{
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: red; }
 
 
+
+
+
 /* Team BGS */
 .njd-bg{
 	text-shadow: 2px 2px 2px black;
@@ -71,6 +74,7 @@ td{
   		#F57D31 10px,
   		#F57D31 20px
 	);
+	
 }
 .nyr-bg{
 	text-shadow: 2px 2px 2px black;
@@ -194,8 +198,15 @@ td{
 	);
 }
 .chi-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#E3263A,
+  		#E3263A 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
+
 }
 .det-bg{
 	/*background-color: #B01213;*/
@@ -204,63 +215,161 @@ td{
   		45deg,
   		#EC2024,
   		#EC2024 10px,
-  		#fff 10px,
-  		#fff 20px
+  		#BF2B37 10px,
+  		#BF2B37 20px
 	);
 }
 .nsh-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#FDBB2F,
+  		#FDBB2F 10px,
+  		#002E62 10px,
+  		#002E62 20px
+	);
+
 }
 .stl-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#0546A0,
+  		#0546A0 10px,
+  		#FFC325 10px,
+  		#FFC325 20px
+	);
+
 }
 .cgy-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#E03A3E,
+  		#E03A3E 10px,
+  		#FFC758 10px,
+  		#FFC758 20px
+	);
+
 }
 .col-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#8B2942,
+  		#8B2942 10px,
+  		#01548A 10px,
+  		#01548A 20px
+	);
+
 }
 .edm-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#003777,
+  		#003777 10px,
+  		#E66A20 10px,
+  		#E66A20 20px
+	);
+
 }
 .van-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#07346F,
+  		#07346F 10px,
+  		#047A4A 10px,
+  		#047A4A 20px
+	);
+
 }
 .ana-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#91764B,
+  		#91764B 10px,
+  		#EF5225 10px,
+  		#EF5225 20px
+	);
+
 }
 .dal-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#006A4E,
+  		#006A4E 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
+
 }
 .lak-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#000000,
+  		#000000 10px,
+  		#AFB7BA 10px,
+  		#AFB7BA 20px
+	);
+
 }
 .sjs-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#05535D,
+  		#05535D 10px,
+  		#F38F20 10px,
+  		#F38F20 20px
+	);
+
 }
 .cbj-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#00285C,
+  		#00285C 10px,
+  		#A9B0B8 10px,
+  		#A9B0B8 20px
+	);
+
 }
 .min-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#025736,
+  		#025736 10px,
+  		#fff 10px,
+  		#fff 20px
+	);
+
 }
 .win-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#002E62,
+  		#002E62 10px,
+  		#BF2B37 10px,
+  		#BF2B37 20px
+	);
+
 }
 .ari-bg{
-	background-color: #B01213;
 	text-shadow: 2px 2px 2px black;
+	background: repeating-linear-gradient(
+  		45deg,
+  		#841F27,
+  		#841F27 10px,
+  		#000000 10px,
+  		#000000 20px
+	);
+
 }

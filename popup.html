@@ -1,42 +1,41 @@
 <!doctype html>
-<html>
+<html lang="en" ng-app="goalBuddy">
   <head>
+  	<meta charset="utf-8">
     <title>Goal Buddy</title>
-    	<!-- Scripts -->
-		<script src="js/jquery-2.0.3.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/moment.min.js"></script>
-		<script src="js/moment-timezone-with-data-2010-2020.min.js"></script>
-		<script src="js/moment-timezone.js"></script>
-		<script src="js/workflow/goal-buddy.js"></script>
+    	<script src="js/angular.min.js"></script>
+	    <script src="js/angular-resource.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
 
+		<script src="js/moment.min.js"></script>
+		<script src="js/angular-moment.min.js"></script>
+		
+		<script src="js/workflow/app.js"></script>
+		<script src="js/workflow/controllers.js"></script>
+		<script src="js/workflow/directives.js"></script>
+		<script src="js/workflow/filters.js"></script>
+		<script src="js/workflow/services.js"></script>
 		<!-- Cascading Style Sheets -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/custom.css" rel="stylesheet" media="screen">
   	</head>
   	<body>
 
-	<span class="glyphicon glyphicon-cog pull-right settings" aria-hidden="true"></span>
+	<a href="#/settings"><span class="glyphicon glyphicon-cog pull-right settings" aria-hidden="true"></span></a>
 	
-	<center><h3>Goal Buddy</h3></center>
+	<center><a href="#/scores"><h3>Goal Buddy</h3></a></center>
 
-  	<div id="gameData">
-	    <div class="result">
-	    	<!-- Game Data Goes Here -->
-	    	<!-- <span id="gameDate"></span> -->
-	    	<table class="table table-bordered table-striped">
-	    		<thead>
-	    			<tr>
-	    				<th>Home</th>
-	    				<th class="no-border"></th>
-	    				<th class="no-border"></th>
-	    				<th class="no-border"></th>
-	    				<th>Away</th>
-	    			</tr>
-	    		</thead>
-	    		<tbody id="scoreTable"></tbody>
-	    	</table>
-	    </div>
+  	<div id="gameData" ng-view>
+	    
     </div>
+    <!-- Scripts -->
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!--
+	<script src="js/moment.min.js"></script>
+	<script src="js/moment-timezone-with-data-2010-2020.min.js"></script>
+	<script src="js/moment-timezone.js"></script>
+-->
+
   </body>
 </html>
