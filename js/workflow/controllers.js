@@ -10,6 +10,7 @@ angular.module('goalBuddy.controllers', ['ngResource'])
 		};
 		var promise;
 		$scope.setGameList = function(){
+			$scope.gameData.gameList = [];
 			GameData.getGames().then(function(data){
 				//I don't know why this makes grabbing meta data work, but it does....
 				var metaData = $scope.setMetaData(data);
