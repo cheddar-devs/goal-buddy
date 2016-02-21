@@ -1,5 +1,5 @@
 <div class="result">
-	<!-- <a ng-click="setGameList()"><span class="glyphicon glyphicon-refresh pull-right refresh" aria-hidden="true"></span></a> -->
+	<a ng-click="setGameList()" class="refreshButton"><span class="glyphicon glyphicon-refresh pull-left refresh" aria-hidden="true"></span></a>
 	<!-- Game Data Goes Here -->
 	<table class="table table-bordered table-striped">
 		<thead>
@@ -9,12 +9,16 @@
 				<th class="no-border"></th>
 				<th class="no-border"></th>
 				<th>Away</th>
+				<th ng-if="isGeneratorEnabled()">Generate</th>
 			</tr>
 		</thead>
 		
 		<tbody id="scoreTable">
-			<tr ng-repeat="game in gameData.gameList">
-				<td class="no-border {{game.GameMeta.responseJSON.gameData.teams.home.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.home.team.name}}</td>
+			<!-- If Favorite Team -->
+			<tr ng-repeat="game in gameData.gameList" ng-if="!isFavoriteTeamInvolved(game.GameInfo.teams.home.team.name, game.GameInfo.teams.away.team.name)">
+				<td class="no-border {{gameData.theme}}-{{game.GameMeta.responseJSON.gameData.teams.home.abbreviation | lowercase}}-bg">
+					{{game.GameInfo.teams.home.team.name}}
+				</td>
 				<td class="no-border score {{isHomeWinner(game.GameInfo.teams.home.score, game.GameInfo.teams.away.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.home.score}}</td>
 				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
 
@@ -29,9 +33,34 @@
 				</td>
 				
 				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
-				<td class="no-border {{isAwayWinner(game.GameInfo.teams.away.score, game.GameInfo.teams.home.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.away.score}}</td>
-				<td class="no-border score {{game.GameMeta.responseJSON.gameData.teams.away.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.away.team.name}}</td>
+				<td class="no-border score {{isAwayWinner(game.GameInfo.teams.away.score, game.GameInfo.teams.home.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.away.score}}</td>
+				<td class="no-border {{gameData.theme}}-{{game.GameMeta.responseJSON.gameData.teams.away.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.away.team.name}}</td>
 
+				<td ng-if="isGeneratorEnabled()">Generate</td>
+			</tr>
+
+			<tr ng-repeat="game in gameData.gameList" ng-if="isFavoriteTeamInvolved(game.GameInfo.teams.home.team.name, game.GameInfo.teams.away.team.name)">
+				<td class="no-border {{gameData.theme}}-{{game.GameMeta.responseJSON.gameData.teams.home.abbreviation | lowercase}}-bg">
+					{{game.GameInfo.teams.home.team.name}}
+				</td>
+				<td class="no-border score {{isHomeWinner(game.GameInfo.teams.home.score, game.GameInfo.teams.away.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.home.score}}</td>
+				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
+
+				<td class="no-border" ng-if="showStatus(game.GameInfo.status.abstractGameState)">{{game.GameInfo.status.abstractGameState}}</td>
+				<td class="no-border" ng-if="showTime(game.GameInfo.status.abstractGameState)">
+					{{game.GameInfo.gameDate | amUtc | amLocal | amDateFormat: 'h:mma'}}
+				</td>
+
+				<td class="no-border" id="gamePeriod" ng-if="showTimeLeft(game.GameInfo.status.abstractGameState)">
+					{{game.GameMeta.responseJSON.liveData.linescore.currentPeriodOrdinal}} <br />
+					<span class="gametime">{{game.GameMeta.responseJSON.liveData.linescore.currentPeriodTimeRemaining}}</span>
+				</td>
+				
+				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
+				<td class="no-border score {{isAwayWinner(game.GameInfo.teams.away.score, game.GameInfo.teams.home.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.away.score}}</td>
+				<td class="no-border {{gameData.theme}}-{{game.GameMeta.responseJSON.gameData.teams.away.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.away.team.name}}</td>
+
+				<td ng-if="isGeneratorEnabled()">Generate</td>
 			</tr>
 		</tbody>
 	</table>

@@ -1,0 +1,28 @@
+{
+	"theme" : {
+		"currentTheme": "Striped",
+		"themes" : [
+			{
+				"id": "0",
+				"name": "Plain"
+			},
+			{
+				"id": "1",
+				"name": "Striped"
+			}
+		]
+	}
+}
+
+{
+	"themes" : [
+			{
+				"id": "0",
+				"name": "Plain"
+			},
+			{
+				"id": "1",
+				"name": "Striped"
+			}
+		]
+}

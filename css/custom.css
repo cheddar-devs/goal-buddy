@@ -11,6 +11,11 @@ body, section {			/* Change width and height to own preferences */
 	overflow-x: hidden;
 }
 
+.field{
+  padding-left: 20px;
+  padding-right: 150px;
+}
+
 .gameData{
 	padding: 5px;
 }
@@ -21,6 +26,10 @@ section { padding: 5px;}
 
 td{
 	padding: 8px;
+}
+
+#notifyBox{
+  display: none;
 }
 
 .table td, .table th {
@@ -47,8 +56,14 @@ td{
 
 .refresh{
   font-size: 24px;
-  padding-right: 10px;
-  padding-bottom: 5px;
+  padding-left: 10px;
+  
+}
+
+.refreshButton{
+  position: relative;
+  top: -35px;
+  
 }
 
 .score{
@@ -69,7 +84,7 @@ td{
 
 
 /* Team BGS */
-.njd-bg{
+.Striped-njd-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -79,7 +94,7 @@ td{
   		#000000 20px
 	);
 }
-.nyi-bg{
+.Striped-nyi-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -90,7 +105,7 @@ td{
 	);
 	
 }
-.nyr-bg{
+.Striped-nyr-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -100,7 +115,7 @@ td{
   		#E6393F 20px
 	);
 }
-.phi-bg{
+.Striped-phi-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -110,7 +125,7 @@ td{
   		#000000 20px
 	);
 }
-.pit-bg{
+.Striped-pit-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -120,7 +135,7 @@ td{
   		#D1BD80 20px
 	);
 }
-.bos-bg{
+.Striped-bos-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -130,7 +145,7 @@ td{
   		#FFC422 20px
 	);
 }
-.buf-bg{
+.Striped-buf-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -140,7 +155,7 @@ td{
   		#FDBB2F 20px
 	);
 }
-.mon-bg{
+.Striped-mon-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -150,7 +165,7 @@ td{
   		#213770 20px
 	);
 }
-.ott-bg{
+.Striped-ott-bg{
 	/*background-color: #E4173E;*/
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
@@ -161,7 +176,7 @@ td{
   		#D4A00F 20px
 	);
 }
-.tor-bg{
+.Striped-tor-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -171,7 +186,7 @@ td{
   		#013E7D 20px
 	);
 }
-.car-bg{
+.Striped-car-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -181,7 +196,7 @@ td{
   		#000000 20px
 	);
 }
-.fla-bg{
+.Striped-fla-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -191,7 +206,7 @@ td{
   		#002E5F 20px
 	);
 }
-.tbl-bg{
+.Striped-tbl-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -201,7 +216,7 @@ td{
   		#C0C0C0 20px
 	);
 }
-.wsh-bg{
+.Striped-wsh-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -211,7 +226,7 @@ td{
   		#00214E 20px
 	);
 }
-.chi-bg{
+.Striped-chi-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -222,7 +237,7 @@ td{
 	);
 
 }
-.det-bg{
+.Striped-det-bg{
 	/*background-color: #B01213;*/
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
@@ -233,7 +248,7 @@ td{
   		#BF2B37 20px
 	);
 }
-.nsh-bg{
+.Striped-nsh-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -244,7 +259,7 @@ td{
 	);
 
 }
-.stl-bg{
+.Striped-stl-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -255,7 +270,7 @@ td{
 	);
 
 }
-.cgy-bg{
+.Striped-cgy-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -266,7 +281,7 @@ td{
 	);
 
 }
-.col-bg{
+.Striped-col-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -277,7 +292,7 @@ td{
 	);
 
 }
-.edm-bg{
+.Striped-edm-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -288,7 +303,7 @@ td{
 	);
 
 }
-.van-bg{
+.Striped-van-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -299,7 +314,7 @@ td{
 	);
 
 }
-.ana-bg{
+.Striped-ana-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -310,7 +325,7 @@ td{
 	);
 
 }
-.dal-bg{
+.Striped-dal-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -321,7 +336,7 @@ td{
 	);
 
 }
-.lak-bg{
+.Striped-lak-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -332,7 +347,7 @@ td{
 	);
 
 }
-.sjs-bg{
+.Striped-sjs-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -343,7 +358,7 @@ td{
 	);
 
 }
-.cbj-bg{
+.Striped-cbj-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -354,7 +369,7 @@ td{
 	);
 
 }
-.min-bg{
+.Striped-min-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -365,7 +380,7 @@ td{
 	);
 
 }
-.wpg-bg{
+.Striped-wpg-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -376,7 +391,7 @@ td{
 	);
 
 }
-.ari-bg{
+.Striped-ari-bg{
 	text-shadow: 2px 2px 2px black;
 	background: repeating-linear-gradient(
   		45deg,
@@ -385,5 +400,145 @@ td{
   		#000000 10px,
   		#000000 20px
 	);
+
+}
+
+/* Plain BGs */
+.Plain-njd-bg{
+  text-shadow: 2px 2px 2px black;
+  background:   #E03A3E;
+}
+.Plain-nyi-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #00529B;
+  
+}
+.Plain-nyr-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #0161AB;
+}
+.Plain-phi-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #F47940;
+}
+.Plain-pit-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #D1BD80;
+}
+.Plain-bos-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #FFC422;
+}
+.Plain-buf-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #002E62;
+}
+.Plain-mon-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #BF2F38;
+}
+.Plain-ott-bg{
+  /*background-color: #E4173E;*/
+  text-shadow: 2px 2px 2px black;
+  background: #E4173E;
+}
+.Plain-tor-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #003777;
+}
+.Plain-car-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #E03A3E;
+}
+.Plain-fla-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #C8213F;
+}
+.Plain-tbl-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #013E7D;
+}
+.Plain-wsh-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #CF132B;
+}
+.Plain-chi-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #E3263A;
+
+}
+.Plain-det-bg{
+  /*background-color: #B01213;*/
+  text-shadow: 2px 2px 2px black;
+  background: #EC2024;
+}
+.Plain-nsh-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #FDBB2F;
+
+}
+.Plain-stl-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #0546A0;
+
+}
+.Plain-cgy-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #E03A3E;
+
+}
+.Plain-col-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #8B2942;
+
+}
+.Plain-edm-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #003777;
+
+}
+.Plain-van-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #07346F;
+
+}
+.Plain-ana-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #91764B;
+
+}
+.Plain-dal-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #006A4E;
+
+}
+.Plain-lak-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #000000;
+
+}
+.Plain-sjs-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #05535D;
+
+}
+.Plain-cbj-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #00285C;
+
+}
+.Plain-min-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #025736;
+
+}
+.Plain-wpg-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #002E62;
+
+}
+.Plain-ari-bg{
+  text-shadow: 2px 2px 2px black;
+  background: #841F27;
 
 }

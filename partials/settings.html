@@ -1,0 +1,39 @@
+<center><div class="alert alert-success" id="notifyBox" role="alert">Settings Updated</div></center>
+
+<form>
+	<div class="form-group">
+		<label for="themeSelect" class="col-sm-2 control-label">Team Theme</label>
+		<div class="field">
+			<select class="form-control" id="themeSelect">
+				<option value="{{gameData.theme}}">{{gameData.theme}}</option>
+				<option ng-if="isSelectedTheme('Plain')" value="Plain">Plain</option>
+				<option ng-if="isSelectedTheme('Striped')" value="Striped">Striped</option>
+				<option ng-if="isSelectedTheme('None')" value="None">None</option>
+			</select>
+		</div>
+		<br/ >
+		<label for="themeSelect" class="col-sm-2 control-label">Favorite Team</label>
+		<div class="field">
+			<select class="form-control" id="favoriteSelect">
+				<option>{{favoriteTeam}}</option>
+				<option ng-if="isFavoriteTeam('None')">None</option>
+				<option ng-repeat="team in teamList.teams"  ng-if="isFavoriteTeam(team.name)">{{team.name}}</option>
+			</select>
+		</div>
+
+		<div class="field">
+		<div class="checkbox">
+		    <label>
+		      	<input ng-if="isGeneratorEnabled()" id="generatorEnabled" type="checkbox" checked> 
+				<input ng-if="!isGeneratorEnabled()" id="generatorEnabled" type="checkbox"> 
+		      	Game Thread Generator Enabled
+		    </label>
+		  </div>
+		</div>
+	</div>
+	<div class="field" ng-click="saveSettings()">
+		<button type="submit" class="btn btn-default">Save</button>
+	</div>
+
+	
+</form>
