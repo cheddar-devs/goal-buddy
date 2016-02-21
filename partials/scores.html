@@ -12,18 +12,18 @@
 		</thead>
 		
 		<tbody id="scoreTable">
-			<tr ng-repeat="game in gameData.gameList.dates[0].games">
-				<td>{{game.teams.home.team.name}}</td>
-				<td ng-if="showScore(game.status.abstractGameState)">{{game.teams.home.score}}</td>
-				<td ng-if="!showScore(game.status.abstractGameState)"></td>
+			<tr ng-repeat="game in gameData.gameList">
+				<td class="no-border {{game.GameMeta.responseJSON.gameData.teams.home.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.home.team.name}}</td>
+				<td class="no-border {{isHomeWinner(game.GameInfo.teams.home.score, game.GameInfo.teams.away.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.home.score}}</td>
+				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
 
-				<td ng-if="showStatus(game.status.abstractGameState)">{{game.status.abstractGameState}}</td>
-				<td ng-if="showTime(game.status.abstractGameState)">{{game.gameDate | amUtc | amLocal | amDateFormat: 'h:mma'}}</td>
-				<td id="gamePeriod" ng-if="getTimeRemaining(game.link)}">{{}}</td>
+				<td class="no-border" ng-if="showStatus(game.GameInfo.status.abstractGameState)">{{game.GameInfo.status.abstractGameState}}</td>
+				<td class="no-border" ng-if="showTime(game.GameInfo.status.abstractGameState)">{{game.GameInfo.gameDate | amUtc | amLocal | amDateFormat: 'h:mma'}}</td>
+				<td class="no-border" id="gamePeriod" ng-if="showTimeLeft(game.GameInfo.status.abstractGameState)">{{game.GameMeta.responseJSON.liveData.linescore.currentPeriodOrdinal}}</td>
 				
-				<td ng-if="!showScore(game.status.abstractGameState)"></td>
-				<td ng-if="showScore(game.status.abstractGameState)">{{game.teams.away.score}}</td>
-				<td>{{game.teams.away.team.name}}</td>
+				<td class="no-border" ng-if="!showScore(game.GameInfo.status.abstractGameState)"></td>
+				<td class="no-border {{isAwayWinner(game.GameInfo.teams.away.score, game.GameInfo.teams.home.score, game.GameInfo.status.abstractGameState)}}" ng-if="showScore(game.GameInfo.status.abstractGameState)">{{game.GameInfo.teams.away.score}}</td>
+				<td class="no-border {{game.GameMeta.responseJSON.gameData.teams.away.abbreviation | lowercase}}-bg">{{game.GameInfo.teams.away.team.name}}</td>
 
 			</tr>
 		</tbody>
